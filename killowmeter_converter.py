@@ -10,8 +10,6 @@ def kilometer_converter(distance_in_kilometer) :
 
     return f'The distance in miles is {distance_in_miles:.2f}', f'The distance in kilometer is {distance_in_kilometer:.2f}'
 
-
-
 distance_in_kilometer = float(input('enter the distance in kilometer ? ').strip())
 
 miles_distance, kilometer_distance = kilometer_converter(distance_in_kilometer)
