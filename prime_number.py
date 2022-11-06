@@ -9,9 +9,8 @@ def is_prime_number(num) :
 
         if num % number == 0 :
             print('it is not a prime number.')
-            break
     else :
-        print('it is a prime number.')
+        print('it is a prime number')
 
 try :
 
