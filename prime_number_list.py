@@ -10,8 +10,6 @@ def is_prime_number(num) :
                 break
         else:
             print(num, end='  ')
-    
-
 try :
 
     number = int(input('Enter a number ? ').strip())
@@ -20,4 +18,7 @@ except ValueError :
     print('only integer number allowed.')
 
 else :
+
     is_prime_number(number)
+
+ 
